@@ -5,12 +5,12 @@
 }
 
 body {
-  background-color: rgba(155, 89, 182, 0.7);
+  background-color: rgba(145, 89, 182, 0.7);
   font-family: 'Open Sans', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 95vh;
   margin: 0;
 }
 
@@ -18,9 +18,9 @@ body {
   position: relative;
   overflow: hidden;
   border: 3px solid #eee;
-  border-radius: 15px;
+  border-radius: 20px;
   height: 600px;
-  width: 340px;
+  width: 345px;
 }
 
 .phone .content {
@@ -29,8 +29,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: calc(100% - 60px);
-  width: 100%;
+  height: calc(195% - 65px);
+  width: 95%;
   transition: opacity 0.4s ease;
 }
 
